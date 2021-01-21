@@ -6,7 +6,8 @@ import Form from './Form'
 
 class App extends Component {
     handleSubmit = (character) => {
-        this.setState({characters: [...this.state.characters, character]})
+        
+      this.setState({characters: [...this.state.characters, character]})
     }
     removeCharacter = (index) => {
         const {characters} = this.state
