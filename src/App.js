@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
-import Table from './Table'
-import Form from './Form'
+import Table from './Nav/Table'
+import Form from './Nav/Form'
+import Header from './Components/Header'
+
 
 
 
@@ -27,10 +29,17 @@ class App extends Component {
       const { characters } = this.state
     
     return (
+      <>
+        <Header/>
+      <div className="container">
+        
+      </div>
       <div className="container">
         <Table characterData={characters} removeCharacter={this.removeCharacter}/>
         <Form  handleSubmit={this.handleSubmit}/>
       </div>
+      
+      </>
     )
   }
 }
