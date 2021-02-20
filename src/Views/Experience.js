@@ -9,7 +9,9 @@ class Experience extends Component {
     
   
     return (
-        <Timeline />
+        <div >
+        <Timeline/>
+        </div>
     );
     }
 }

@@ -1,11 +1,14 @@
 import React, {Component} from 'react'
+import ProjectEntries from '../Components/ProjectsEntries.js'
 
 class Projects extends Component {
  
   render() {
   
     return (
-        <h5>Projects</h5>
+        
+        <ProjectEntries />
+       
     );
     }
 }

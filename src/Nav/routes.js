@@ -18,7 +18,7 @@ export const Routes = () => {
         <div className="container">
          <HashRouter >
           <Switch>
-          <Route path="/Experience" component={Experience} />
+          <Route path="/Experience" component={Experience}/>
           <Route path="/Projects" component={Projects} />
           <Route exact path="/" component={Home} />
         </Switch>

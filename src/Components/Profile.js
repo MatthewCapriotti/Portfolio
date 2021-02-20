@@ -45,7 +45,7 @@ class Profile extends Component {
                     <div className="padding-bottom"> 
                     <b>{this.frameworksLabel}</b><br /> {this.frameworks}<br />
                     </div> 
-                    <div className="padding-bottom"> 
+                    <div className="pb-4"> 
                     <b>{this.cloudLabel}</b><br /> {this.clouds}<br />
                     </div> 
                     <SocialIcon url="https://www.linkedin.com/in/matthew-capriotti-b38630b3/" style={{ height: 35, width: 35 }}/>
