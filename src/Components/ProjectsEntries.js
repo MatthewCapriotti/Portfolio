@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card'
 import React, {Component} from 'react'
-import Button from 'react-bootstrap/Button'
+//import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -20,7 +20,7 @@ return (
     <Card.Text>
       {props.projectInfo.description}
     </Card.Text>
-    <Button variant="primary">More Info</Button>
+    {/* <Button variant="primary">More Info</Button> */}
   </Card.Body>
 </Card>
 );

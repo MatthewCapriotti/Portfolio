@@ -6,9 +6,10 @@ class Projects extends Component {
   render() {
   
     return (
-        
+        <>
+        <br />
         <ProjectEntries />
-       
+        </>
     );
     }
 }
