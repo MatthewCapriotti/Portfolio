@@ -22,6 +22,11 @@ class Profile extends Component {
   render() {
   
     return (
+        <>
+        <br />
+        <br />
+        <br />
+        <h1 className="profileHeader">Profile</h1>
         <Container>
             <Row className="header-row">
                 <Col className="text-center"><h3>About Me</h3></Col>
@@ -58,6 +63,7 @@ class Profile extends Component {
                 </Col>
             </Row>
         </Container>
+        </>
     );
     }
 }

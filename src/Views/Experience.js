@@ -10,6 +10,9 @@ class Experience extends Component {
   
     return (
         <div >
+            <br />
+        <br />
+            <h1 className="profileHeader">Experience</h1>
         <Timeline/>
         </div>
     );

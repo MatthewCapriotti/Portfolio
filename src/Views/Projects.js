@@ -8,6 +8,9 @@ class Projects extends Component {
     return (
         <>
         <br />
+        <br />
+        <br />
+        <h1 className="profileHeader">Projects</h1>
         <ProjectEntries />
         </>
     );
