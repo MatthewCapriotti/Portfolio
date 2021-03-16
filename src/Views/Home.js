@@ -44,7 +44,7 @@ class Home extends Component {
         <Profile></Profile>
         </div>
        
-        <br />
+        
         <br />
         <div ref={this.scrollProjects}>
         <Projects></Projects>

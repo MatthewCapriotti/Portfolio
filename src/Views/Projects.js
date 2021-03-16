@@ -9,7 +9,6 @@ class Projects extends Component {
         <>
         <br />
         <br />
-        <br />
         <h1 className="profileHeader">Projects</h1>
         <ProjectEntries />
         </>
