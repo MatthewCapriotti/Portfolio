@@ -21,7 +21,7 @@ return (
     <Card.Text>
       {props.projectInfo.description}
     </Card.Text>
-     <Button href={props.projectInfo.gitHubLink} variant="primary">GitHub Code</Button>
+     <Button target="_blank" href={props.projectInfo.gitHubLink} variant="primary">GitHub Code</Button>
   </Card.Body>
 </Card>
 );

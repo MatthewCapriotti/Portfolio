@@ -53,13 +53,13 @@ class Profile extends Component {
                     <div className="pb-4"> 
                     <b>{this.cloudLabel}</b><br /> {this.clouds}<br />
                     </div> 
-                    <SocialIcon url="https://www.linkedin.com/in/matthew-capriotti-b38630b3/" style={{ height: 35, width: 35 }}/>
+                    <SocialIcon target="_blank" url="https://www.linkedin.com/in/matthew-capriotti-b38630b3/" style={{ height: 35, width: 35 }}/>
                     <div className="divider"/> 
-                    <SocialIcon url="https://www.instagram.com/mattcap4/?hl=en" style={{ height: 35, width: 35 }}  />
+                    <SocialIcon target="_blank" url="https://www.instagram.com/mattcap4/?hl=en" style={{ height: 35, width: 35 }}  />
                     <div className="divider"/> 
-                    <SocialIcon url="https://www.facebook.com/matthew.capriotti/" style={{ height: 35, width: 35 }}  />
+                    <SocialIcon target="_blank" url="https://www.facebook.com/matthew.capriotti/" style={{ height: 35, width: 35 }}  />
                     <div className="divider"/> 
-                    <SocialIcon url="https://github.com/MatthewCapriotti" style={{ height: 35, width: 35 }}  />
+                    <SocialIcon target="_blank" url="https://github.com/MatthewCapriotti" style={{ height: 35, width: 35 }}  />
                 </Col>
             </Row>
         </Container>
