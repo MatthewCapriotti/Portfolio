@@ -135,7 +135,7 @@ class Timeline extends Component {
             date: "September 2019 - Present",
             title: "Deloitte",
             location: "Washington D.C.",
-            description: "Business Technology Analyst\nAngular | Node.js | JavaScript | TypeScript | ASP.Net | C# | MySQL | SQL | GitHub | Visual Studio | TFS | cloud.gov",
+            description: "Business Technology Analyst\nAngular | Node.js | JavaScript | TypeScript | ASP.Net | C# | MySQL | SQL | GitHub | Visual Studio | TFS | cloud.gov | AWSs",
             icon: <MdWork />,
             iconColor: { background: 'rgb(33, 150, 243)', color: '#fff' },
             class: "vertical-timeline-element--work",
