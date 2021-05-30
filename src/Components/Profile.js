@@ -13,11 +13,11 @@ class Profile extends Component {
     activitiesLabel = "Activities/Interests:"
     activities = "Weight Lifting, Traveling, Snowboarding, Wakeboarding, Golf, Basektball, Backpacking"
     cloudLabel = "Cloud:"
-    clouds = "AWS (Certified), Google Cloud"
+    clouds = "AWS (Certified Developer - Associate), Azure (Certified Database Admin - Associate) Google Cloud"
     frameworksLabel = "Frameworks:"
     frameworks = "Angular, Node.Js, Flask, ASP.Net, Bootstrap, React"
     languageLabel = "Languages:"
-    languages= "Python, C++/C#, Swift, JavaScript, Java, HTML, CSS, SQL, MySQL, TypeScript, VB.Net, VBA, R"
+    languages= "Python, C++/C#, Swift, JavaScript, Java, HTML, CSS, SQL, MySQL, TypeScript, VB.Net, VBA, R, Tableau"
     
   render() {
   

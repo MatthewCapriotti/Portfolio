@@ -35,7 +35,7 @@ class ProjectEntries extends Component {
     render() {
       const entry4 = {
         title: "Investment Account Allocation",
-        subtitle: "R | NLP",
+        subtitle: "R | Non-linear programming",
         description: "Created a model in R to examine where you should house different investments.  The model takes into account stocks, bonds, and reits and has base assumptions that can be easily changed regarding tax rate and ROI of different investments. The overall finding is that you should put tax-inefficient investments (bonds, REITs) in a traditional IRA and you should put high growth investments (stocks) in a Roth IRA.",
         gitHubLink: "https://github.com/MatthewCapriotti/IraAccountAllocation"
       }
